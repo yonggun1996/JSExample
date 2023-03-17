@@ -1,0 +1,30 @@
+-- JS도 절차지향 언어 중 하나. 고로 함수가 굉장히 중요한 요소 중 하나.
+
+-- 함수 사용 방법
+function name(param1, param2){
+	retrun 'This is function'
+}
+
+-- 원칙적으로 함수는 하나의 일만 할 수 있도록 작성됭되어야 한다.
+
+-- function은 다른 함수의 파라미터로 넘길 수 있고, 변수에 담을 수 있고, return을 할 수 있다.
+
+-- 파라미터는 premitive type은 value를 넘겨주고, object type은 reference를 넘겨준다.
+  => example1.js 참고.
+
+-- deafult parameter : 파라미터 옆에 기본값을 세팅하면 undefiend check 하는 과정을 거치지 않아도 된다.
+  => example2.js 참고.
+
+  -- rest Parameter : 파라미터 앞에 '...'을 붙이면 배열 형태로 전달된다.
+  => example3.js 참고
+
+-- return : 다른 언어와 마찬가지로 함수의 알고리즘 결과값을 반환한다.
+
+-- early return : 특정 조건에 만족하면 함수가 채 끝나지 않고 바로 return 하는 코드 작성법.
+
+-- function Expression : 내용은 example4.js 참고
+
+-- Arrow Function : es6에서 지원되며 함수를 간소화 하는 기능.
+  => example5.js 참고.
+
+-- iife : 함수 선언과 동시에 바로 호출이 가능하다. => example6.js 참고
