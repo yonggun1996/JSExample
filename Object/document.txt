@@ -1,0 +1,37 @@
+- Object 관련문서 : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+- Object는 key와 value가 한 쌍으로 이뤄져 있다.
+
+- 선언방법
+  1. const obj = {}; -> 리터럴타입
+  2. const obj = new Object(); -> constructor 타입
+-> example1.js 참고
+
+- Object Key 접근 방법은 2가지가 있다.
+- object.name / object['name']
+- '.'은 코딩하는 순간 그 키에 해당하는 값을 가져올 때
+- '[]'은 정확히 어떤 키를 가져와야 할 지 모를때 사용
+-> example2.js참고
+
+- 같은 변수가 담긴 object를 새로 만들기 위해 function을 사용할 수 있다. (Construct Function)
+
+- object 안에 해당하는 key가 있는지 확인 가능하다.
+console.log('key' in object);
+
+- for..in for..of
+- object안에 key들이 for loop를 돈다
+for(key in object){
+	console.log(key);
+}
+
+- 배열 내의 값들이 value로 할당 되면서 배열 내의 모든 값들이 찍힌다.
+for(value of array){
+	console.log(value);
+}
+
+- object 복사 -> example4.js 참고
+const user = { name: 'park', num: 7 };
+const user2 = user;
+이러한 방식의 복사는 stack영역에는 두개의 변수가 쌓이지만 각각의 변수는 같은 object를 바라보게 된다.
+
+- Object.assign : object를 깊은 복사를 하는 메서드
