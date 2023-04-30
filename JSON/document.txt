@@ -1,0 +1,10 @@
+- http : 서버와 클라이언트 간의 통신 규약.
+- request : 서버에 데이터를 요청하는 과정
+- responce : request받은 값을 토대로 서버가 응답하는 과정
+
+- json(Javascript Object Notation) : js의 object를 토대로 서버에서 요청한 값을 응답받는 형식.
+
+- 프로그래밍 언어나 프레임워크에 상관 없이 사용할 수 있다.
+
+1. object를 어떻게 json으로 변경할 것인가?
+2. json을 어떻게 다시 object로 변환할 것인가?
